@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "batch_name": "Before 2022",
+    "date_range": "2020-01-01 to 2021-12-31",
+    "total_collected": 1,
+    "timestamp": "2025-10-26T05:07:49.048Z"
+  },
+  "tweets": [
+    {
+      "id": "unknown_1761455269048_0.573754926260245",
+      "thread_id": null,
+      "content": ""
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "sand-collector",
+  "version": "1.0.0",
+  "description": "Sand - Collection engine for gathering thinking material from Twitter/X",
+  "main": "src/collect-tweets.js",
+  "scripts": {
+    "start": "node server.js",
+    "collect": "node src/collect-tweets.js",
+    "collect-v2": "node src/collect-tweets-v2.js",
+    "collect-mentions": "node src/collect-mentions.js",
+    "test-connection": "node src/test-connection.js",
+    "test-date": "node src/test-date-collection.js",
+    "batch-collect": "node src/batch-collector.js",
+    "merge": "node src/merge-batches.js",
+    "full-collection": "npm run batch-collect && npm run merge",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twitter",
+    "apify",
+    "sand",
+    "data-collection"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "apify-client": "^2.9.0",
+    "dotenv": "^16.3.1",
+    "fs-extra": "^11.2.0"
+  }
+}

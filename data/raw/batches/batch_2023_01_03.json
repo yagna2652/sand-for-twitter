@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "batch_name": "Jan-Mar 2023",
+    "date_range": "2023-01-01 to 2023-03-31",
+    "total_collected": 1,
+    "timestamp": "2025-10-26T05:06:56.257Z"
+  },
+  "tweets": [
+    {
+      "id": "unknown_1761455216256_0.08949141393431337",
+      "thread_id": null,
+      "content": ""
+    }
+  ]
+}
