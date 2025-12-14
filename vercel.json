@@ -1,7 +1,6 @@
 {
-  "rewrites": [
-    { "source": "/api/:path*", "destination": "/api/:path*" }
-  ],
+  "buildCommand": "",
+  "outputDirectory": ".",
   "functions": {
     "api/collect.js": {
       "maxDuration": 60
