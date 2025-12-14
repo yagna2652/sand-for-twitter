@@ -24,7 +24,9 @@ module.exports = async (req, res) => {
   console.log(`  limit: ${limit || 'all'}`);
 
   try {
-    const fetchLimit = (topic || fromDate || toDate) ? Math.max(limit || 500, 500) : (limit || 100);
+    // When filtering by topic, fetch more tweets to search through
+    // (Twitter search looks at ALL tweets, we can only fetch then filter)
+    const fetchLimit = topic ? 3000 : (fromDate || toDate) ? 1000 : (limit || 100);
 
     const input = {
       handles: [handle],
